@@ -4,13 +4,13 @@ interface IUser {
 }
 
 export default class User {
-  name = "Caio Nunes";
+  name = 'Caio Nunes';
   age = 22;
 
-  toJSON(): IUser {
+  toJSON (): IUser {
     return {
       name: this.name,
-      age: this.age,
-    };
+      age: this.age
+    }
   }
 }

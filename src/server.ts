@@ -1,8 +1,8 @@
-import express from "express";
-import UserController from "@controllers/user.controller";
+import express from 'express'
+import UserController from '@controllers/user.controller'
 
-const app = express();
+const app = express()
 
-app.get("/", UserController.show);
+app.get('/', UserController.show)
 
-app.listen(8000);
+app.listen(8000)
